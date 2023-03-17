@@ -5,12 +5,12 @@ body{
     margin-right: auto;
 
 }
-h1{
+.título{
     color: #3d3d3d;
     background-color: #e1edf2;
     padding: 10px;
 }
-h2 {
+.subtítulo{
       border-bottom: 2px solid black;
 }
     
@@ -24,4 +24,17 @@ h2 {
     }
     figcaption{
         margin-top: 10px;
+    }
+    #figuraMatriz{
+    width: 550px;
+    margin: 0 auto;
+    }
+    #figurafamília{
+     width:375px;
+     float: right;
+    }
+
+    figure img{
+    height: inherit;
+    width: inherir;
     }
